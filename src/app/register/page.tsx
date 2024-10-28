@@ -5,12 +5,10 @@ const { Item } = Form;
 
 export default function FunctionComponent() {
 
-    // const handlerRegister = () => console.log("Hola!!!!");
 
     return (
         <section className="container--form">
             <Form
-                // action={handlerRegister}
                 onFinish={handlerRegister}
             >
                 <Item label="Nombre de Usuario" name="username" rules={[{ required: true, message: "Ingresa un nombre" }]}>
