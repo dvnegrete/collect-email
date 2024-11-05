@@ -24,26 +24,6 @@
       "username": "usuario 5",
       "email": "usuario.5@mail.com",
       "image": "https://randomuser.me/api/portraits/thumb/women/55.jpg"
-    },
-    {
-      "username": "New user",
-      "email": "new.user@mail.com",
-      "image": "https://randomuser.me/api/portraits/thumb/men/15.jpg"
-    },
-    {
-      "username": "creadorNew52",
-      "email": "creador@mail.com",
-      "image": "https://github-personal-dvn.s3.us-east-2.amazonaws.com/img/no-img.jpg"
-    },
-    {
-      "username": "pruebas",
-      "email": "hola3@hotmail.com",
-      "image": "https://github-personal-dvn.s3.us-east-2.amazonaws.com/img/no-img.jpg"
-    },
-    {
-      "username": "dvnegrete",
-      "email": "admin@mail.com",
-      "image": "https://github-personal-dvn.s3.us-east-2.amazonaws.com/img/no-img.jpg"
     }
   ]
 }
