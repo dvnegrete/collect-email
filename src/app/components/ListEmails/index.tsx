@@ -7,15 +7,17 @@ export const ListEmails = () => {
     const { data, isLoading, isError } = useReadEmails();
 
     return (
-        <main className="flex flex-col gap-8 row-start-2 items-center lg:items-start">
+        <main className="flex flex-col gap-8 row-start-2 items-center">
             {isLoading && <p>Cargando...</p>}
             {isError && <p>Error al mostrar la información</p>}
 
-            <Divider orientation="center">Usuarios registrados</Divider>
+            <Divider orientation="center" style={{color: "#1677ff"}}>Usuarios registrados</Divider>
             <List 
                 itemLayout="horizontal"
                 dataSource={data}
                 size="small"
+                bordered={true}
+
                 >
                 {data.map(user => (
                     <List.Item key={user.username} style={{minWidth: "280px"}}>
@@ -29,7 +31,7 @@ export const ListEmails = () => {
             </List>
 
             <Link href="/register">
-                <Button color="default" variant="solid">
+                <Button color="primary" variant="solid">
                     Registrar nuevo
                 </Button>
             </Link>
